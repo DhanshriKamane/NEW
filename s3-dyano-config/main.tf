@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "ap-south-1"
+}
 resource "aws_s3_bucket" "dev" {
     bucket = "statefile-configure-dhanu"
   
