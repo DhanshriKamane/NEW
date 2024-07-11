@@ -12,3 +12,7 @@ resource "aws_instance" "name" {
     }
   
 }
+resource "aws_s3_bucket" "dev" {
+    bucket = "statefile-dhanu"
+  
+}
